@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LoadingButton">
+        <attr name="lb_title" format="string"/>
+        <attr name="lb_loading" format="boolean"/>
+        <attr name="lb_style">
+            <enum name="primary" value="0"/>
+            <enum name="primary-invert" value="1"/>
+            <enum name="link" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
